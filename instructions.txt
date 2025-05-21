@@ -1,0 +1,15 @@
+Website Name: The Valley
+Group Members:
+    Cris Ivan Nual
+    Marcela Ciamel Platilla
+    Jasmine Molina
+ 
+How to Access:
+1. Open index.html in your browser.
+2. Or visit the live link:
+
+Technologies Used:
+- HTML
+- CSS
+- JavaScript
+
