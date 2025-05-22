@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - The Valley</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">The Valley</h1>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="streetwear.html">Streetwear</a></li>
+        <li><a href="korean.html">Korean</a></li>
+        <li><a href="casual.html">Casual</a></li>
+        <li><a href="formal.html">Formal</a></li>
+        <li><a href="vacation.html">Vacation</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Your Guide to Modern Fashion</h2>
+      <p>Where sophistication meets street for everyone...</p>
+      <p> "Style is a way to say who you are without having to speak." - Rachel Zoe</p>
+      <a href="streetwear.html" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <section class="video-section">
+    <h2>Discover the Look</h2>
+    <h3>In today's world, fashion is more than just clothing—it's a powerful form of self-expression that blends innovation with individuality. 
+      The modern era celebrates diversity, sustainability, and creativity, where timeless elegance meets bold experimentation. From the effortless 
+      sophistication of minimalist design to the rebellious spirit of streetwear, contemporary fashion empowers people to define their own style narratives. 
+      Driven by digital influence and cultural fusion, fashion today is fluid, inclusive, and ever-evolving—mirroring the dynamic pace of the world itself.</h3>
+    <div class="video-embed">
+      <iframe width="100%" height="450" 
+              src="https://www.youtube.com/embed/wII9bv2P9c8?autoplay=1&mute=1&loop=1&playlist=wII9bv2P9c8"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+   <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img" />
+  </div>
+
+  <button id="authButton">Login / Sign Up</button>
+
+  <div id="authModal" class="auth-modal">
+    <div class="auth-modal-content">
+      <span class="close-auth">&times;</span>
+      <div class="auth-forms">
+        <form id="loginForm" class="auth-form active">
+          <h2>Login</h2>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit">Login</button>
+          <p>Don't have an account? <a href="#" id="showSignUp">Sign Up</a></p>
+        </form>
+
+        <form id="signUpForm" class="auth-form">
+          <h2>Sign Up</h2>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit">Sign Up</button>
+          <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 The Valley. Crafted with purpose and precision.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
